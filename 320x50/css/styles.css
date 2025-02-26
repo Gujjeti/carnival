@@ -1,0 +1,65 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+
+
+body{display: flex; gap: 20px;   
+}
+
+
+.bannerAd {
+    position: relative;
+    width: 320px;
+    height: 50px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.textWrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    padding: 8px;
+}
+
+
+
+
+        .logoWrapper{
+           
+            overflow: hidden;
+           
+        }
+
+        .logoWrapper img{
+            width: 118px;
+            transform: translateY(100%);
+        }
+
+        .buttonWrapper {
+            overflow: hidden;  
+            display: inline-block;
+
+        }
+
+        .booknowCTA{
+            width: 75px;
+            height: 23px;
+            background-color: #dc1125;
+            color: #fff;
+            display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100%); 
+
+        }
+
+       .booknowCTA svg {
+            display: block;
+            transform: translateY(0px);
+        }
+
+     

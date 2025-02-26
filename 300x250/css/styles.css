@@ -1,0 +1,74 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+
+
+body{display: flex; gap: 20px;   
+}
+
+
+.bannerAd {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.textWrapper {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+
+.text1, .text2 {
+    overflow: hidden;
+    height: 30px; 
+    margin-bottom: -5px;
+}
+
+.text1 span, .text2 span, .booknowCTA {
+    display: inline-block;
+    transform: translateY(110%);
+}
+
+
+
+        .logoWrapper{
+            position: absolute;
+            bottom: 13px;
+            left: 50%;
+            transform: translateX(-50%);
+            overflow: hidden;
+           
+        }
+
+        .logoWrapper img{
+            width: 138px;
+            transform: translateY(100%);
+        }
+
+        .buttonWrapper {
+            overflow: hidden;  
+            display: inline-block;
+            margin-top: 8px;
+
+        }
+
+        .booknowCTA{
+            width: 75px;
+            height: 23px;
+            background-color: #dc1125;
+            color: #fff;
+            display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100%); 
+
+        }
+
+       .booknowCTA svg {
+            display: block;
+            transform: translateY(0px);
+        }
+
+     
