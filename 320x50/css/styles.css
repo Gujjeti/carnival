@@ -26,7 +26,7 @@ body{display: flex; gap: 20px;
 }
 
 
-.oceanImg {
+.oceanImg { 
     transform: scale(1.5);
     transform-origin: 35% 40%;
 }
