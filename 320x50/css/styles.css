@@ -26,10 +26,7 @@ body{display: flex; gap: 20px;
 }
 
 
-.oceanImg { 
-    transform: scale(1.5);
-    transform-origin: 35% 40%;
-}
+
 
         .logoWrapper{
            
