@@ -54,6 +54,10 @@ body{display: flex; gap: 20px;
 
         }
 
+        .oceanImg {
+            transform: scale(1.2);
+        }
+
         .booknowCTA{
             width: 75px;
             height: 23px;
