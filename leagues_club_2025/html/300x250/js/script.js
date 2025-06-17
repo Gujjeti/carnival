@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let tl = gsap.timeline({ repeat: false, repeatDelay: 0 });
+    let tl = gsap.timeline({ repeat: 3, repeatDelay: 1 });
 
     tl.from(".text1, .text2", { 
         y: 30, 
