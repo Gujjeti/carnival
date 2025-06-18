@@ -39,7 +39,7 @@ body{display: flex; gap: 20px;
 .content_bottom{
 position: absolute;
     width: 100%;
-    bottom: 7px;
+    bottom: 3px;
     left: 0;
     text-align: center;
 }
@@ -55,16 +55,10 @@ position: absolute;
 span.league_logo {
     position: relative;
 }
-span.league_logo::after {
-    content: '';
-    width: 1.5px;
-    height: 40px;
-    position: absolute;
-    right: -13px;
-    top: -6px;
-    background: #fff;
-}
 
+.Carnival_logo img{
+    width: 250px;
+}
 .tagline{
     display: block;
 }
