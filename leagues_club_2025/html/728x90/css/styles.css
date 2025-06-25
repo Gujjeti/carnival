@@ -69,3 +69,17 @@ span.league_logo {
 .tagline{
     display: block;
 }
+
+ @media (max-width: 600px) {
+    .content {
+    transform: scale(0.7);
+    transform-origin: left;
+}
+ }
+
+  @media (max-width: 390px) {
+    .content {
+    transform: scale(0.5);
+    transform-origin: left;
+}
+ }

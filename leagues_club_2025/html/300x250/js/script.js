@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     tl.from(".text1, .text2", { 
         y: 30, 
-        duration: 1.5, 
-        ease: "expo.out", 
+        duration: 1.5,  
+        ease: "expo.out",  
         opacity:0,
-        stagger: 0.1
+        stagger: 0.1 
     }).from(".booknowCTA", { 
         y: 30, 
         duration: 1.5,  
